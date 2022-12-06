@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(208, 204, 204);
+}
+
+.header_image {
+  width: 20%;
+  height: 40px;
+}
+
+.nav-ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+#main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_header {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user_email {
+  width: 250px;
+  padding: 8px;
+  margin: 10px 0px;
+}
+
+#submit {
+  padding: 5px 0px;
+  width: 150px;
+  margin-top: 5px;
+  background-color: #f1c40f;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#middle_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.premium {
+  width: 55%;
+  display: flex;
+}
+
+.logo {
+  font-size: 50px;
+  padding: 50px;
+  color: darkorange;
+}
+
+.section_disc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_header {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.section_info {
+  font-size: 20px;
+}
+
+#pricing {
+  margin: 20px auto;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pricing_box {
+  border: 1px solid black;
+  width: 30%;
+}
+
+.pricing_head {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: #ddd;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.pricing_li {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.price_select {
+  background-color: #f1c40f;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#footer {
+  margin: 0 auto;
+  background-color: #ddd;
+  height: 100px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer span {
+  font-size: 15px;
+}
+
+@media (max-width: 850px) {
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing_box {
+    width: 100%;
+    margin: 10px;
+  }
+}
